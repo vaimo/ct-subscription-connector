@@ -3,6 +3,8 @@
   "exclude": ["node_modules", "**/*.spec.ts"],
   "compilerOptions": {
     "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
     "outDir": "./build",
     "rootDir": "./src",
     "inlineSourceMap": true
