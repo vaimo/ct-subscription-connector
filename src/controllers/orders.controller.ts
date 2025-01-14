@@ -45,7 +45,7 @@ const create = async (resource: Resource): Promise<CreateResponse> => {
                         break;
                 }
             });
-            
+
             const response = await fetch('https://ct-subscription.fly.dev/subscriptions/add', {
                 method: 'POST',
                 headers: {
