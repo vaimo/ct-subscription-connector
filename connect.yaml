@@ -1,9 +1,9 @@
 deployAs:
   - name: order-subscription-webhook
     applicationType: service
-    endpoint: /subscriptions
+    endpoint: /service
     scripts:
-      postDeploy: npm install && npm run build && npm run connector:post-deploy
+      postDeploy: yarn install && yarn build && yarn connector:post-deploy
       preUndeploy: npm install && npm run build && npm run connector:pre-undeploy
     configuration:
       standardConfiguration:
