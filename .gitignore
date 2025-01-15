@@ -1,4 +1,5 @@
 node_modules
+order-subscription-webhook/node_modules
 coverage
 .terraform
 *.tfstate*
@@ -10,3 +11,4 @@ build/
 .env
 public/
 .idea
+.connect

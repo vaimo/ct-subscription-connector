@@ -1,5 +1,5 @@
 deployAs:
-  - name: ct-subscription-connector
+  - name: order-subscription-webhook
     applicationType: service
     endpoint: /service
     scripts:
